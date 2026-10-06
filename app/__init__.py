@@ -1,0 +1,1 @@
+"""Smart Scheduler application package."""
