@@ -30,4 +30,3 @@ testpaths = ["tests"]
 [tool.ruff]
 line-length = 100
 target-version = "py311"
-# temporary per-file commit marker
