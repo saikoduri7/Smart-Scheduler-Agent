@@ -18,3 +18,4 @@ def health() -> dict[str, str]:
 @app.post("/schedule/options", response_model=list[CandidateSlot])
 def schedule_options(payload: SchedulingInput) -> list[CandidateSlot]:
     return find_candidate_slots(payload.request, payload.busy_intervals)
+# temporary per-file commit marker

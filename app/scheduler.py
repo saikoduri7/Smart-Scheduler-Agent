@@ -108,3 +108,4 @@ def find_candidate_slots(
 
     candidates.sort(key=lambda slot: (-slot.score, slot.start))
     return candidates[: request.top_k]
+# temporary per-file commit marker

@@ -64,3 +64,4 @@ class CandidateSlot(BaseModel):
     end: datetime
     score: float
     reasons: list[str]
+# temporary per-file commit marker
