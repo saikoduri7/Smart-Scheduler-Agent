@@ -73,4 +73,3 @@ def test_penalizes_back_to_back_slots() -> None:
     by_start = {candidate.start: candidate for candidate in candidates}
 
     assert by_start[dt(13, 10)].score < by_start[dt(13, 9, 45)].score
-# temporary per-file commit marker
